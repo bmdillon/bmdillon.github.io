@@ -1,20 +1,13 @@
 # Site Specific Configuration
-name: LightSpeed
-description: A simple Jekyll theme
-url: https://example.com
-author: tajacks
-timezone: America/Toronto
+name: barrydillon
+description: personal website
+url: https://bmdillon.github.io
+author: bmdillon
+timezone: Dublin/Europe
 timezone_short: ET
 
 # Keywords
 keywords: ['seo', 'key', 'words']
-
-# Analytics (Plausible requires sign-up)
-analytics:
-  plausible:
-    enabled: false
-    site_fqdn: 'your.site.fqdn'
-    script_source: 'https://plausible.io/js/script.js'
 
 # Styling
 sass:
