@@ -4,9 +4,9 @@ title: Papers
 ---
 
 ## Papers
-<!DOCTYPE html>
 <html>
 <body>
+The full list can be found <a href="https://inspirehep.net/authors/1515597">here.</a>
   <p><b>
     <a href="https://inspirehep.net/literature/2950747">
       Theory-informed neural networks for particle physics
