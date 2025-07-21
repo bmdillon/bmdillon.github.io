@@ -7,4 +7,4 @@ title: LightSpeed Contact
 ...
 
 ## Contact
-Email me, [b.dillon@ulster,ac.uk](mailto:b.dillon@ulster,ac.uk).
+Email me, [b.dillon@ulster.ac.uk](mailto:b.dillon@ulster,ac.uk).
