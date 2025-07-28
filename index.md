@@ -12,8 +12,7 @@ This is when I began working on machine-learning techniques for particle physics
 My next stop from there was Heidelberg (Germany) for my third postdoc position, continuing my research on particle physics & machine-learning.
 Having spent enough time moving around I decided to move back to Ireland, taking a job in the private sector as a machine-learning engineer, mostly developing LLM applications.
 One year later I started my current job as a lecturer in mathematics on the Magee (Derry) campus at the University of Ulster.
-As wll as continuing my research in machine-learning and physics, we're developing a new undergraduate course on [computing and applied mathematics](https://www.ulster.ac.uk/courses/202526/computing-with-applied-mathematics-42302){:target="_blank" rel="noopener noreferrer"}.
-
+As wll as continuing my research in machine-learning and physics, we're developing a new undergraduate course on <a href="https://www.ulster.ac.uk/courses/202526/computing-with-applied-mathematics-42302" target="_blank" rel="noopener noreferrer">computing with applied mathematics</a>.
 
 ## Contact
 Email me, [b.dillon@ulster.ac.uk](mailto:b.dillon@ulster.ac.uk).
