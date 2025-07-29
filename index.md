@@ -20,6 +20,6 @@ Having spent enough time moving around I decided to move back to Ireland, taking
 One year later I started my current job as a lecturer in mathematics on the Magee (Derry) campus at the University of Ulster.
 As well as continuing my research in machine-learning and physics, we're developing a new undergraduate course on <a href="https://www.ulster.ac.uk/courses/202526/computing-with-applied-mathematics-42302" target="_blank" rel="noopener noreferrer">computing with applied mathematics</a>.
 </p>
-
+<br>
 ## Contact
 Email me, [b.dillon@ulster.ac.uk](mailto:b.dillon@ulster.ac.uk).
