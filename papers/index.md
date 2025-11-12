@@ -9,6 +9,20 @@ title: Papers
 The full list can also be found <a href="https://inspirehep.net/authors/1515597" target="_blank" rel="noopener noreferrer">here</a>.
 <br>
 <br>
+ <p><b>
+    <a href="https://inspirehep.net/literature/2956107">
+      Anomaly detection with spiking neural networks for LHC physics
+    </a>
+  </b></p>
+  
+    <p><a href="https://inspirehep.net/authors/1515597">Barry M. Dillon</a> (<a href="https://inspirehep.net/institutions/904256">Ulster U.</a>), <a href="https://inspirehep.net/authors/2151263">Jim Harkin</a> (<a href="https://inspirehep.net/institutions/904256">Ulster U.</a>), <a href="https://inspirehep.net/authors/2074327">Aqib Javed</a> (<a href="https://inspirehep.net/institutions/904256">Ulster U.</a>)</p>
+  
+  <p>
+      e-Print:
+          <a href="https://arxiv.org/abs/2508.00063">
+      2508.00063
+    </a>[hep-ph]</p>
+<br>
   <p><b>
     <a href="https://inspirehep.net/literature/2950747" target="_blank" rel="noopener noreferrer">
       Theory-informed neural networks for particle physics
