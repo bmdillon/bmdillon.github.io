@@ -16,19 +16,20 @@
 "mobile"
 ;
 
-.page-header {
+.header {
   position: relative;
-  padding: 1.5rem 0 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.page-title {
+.header h1 {
   margin: 0;
-  font-size: 2rem;
+  padding-right: 140px; /* make space for the photo on the right */
 }
 
-.page-photo {
+.header-photo {
   position: absolute;
-  top: 1.5rem;
+  top: 0.5rem;
   right: 0;
   width: 120px;
   height: 120px;
