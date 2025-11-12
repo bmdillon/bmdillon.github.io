@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About
-photo: /assets/profile-picture.jpg
 ---
 
 <p>I spend most of my time researching machine-learning techniques for particle physics analyses.
