@@ -3,6 +3,11 @@ layout: default
 title: About
 ---
 
+<div class="page-header" style="position:relative;padding:1.5rem 1rem 1rem;">
+  <h1 class="page-title" style="margin:0;font-size:2rem;">{{ page.title }}</h1>
+  <img src="/assets/profile-picture.jpg" alt="Photo" style="position:absolute;top:1.5rem;right:1rem;width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid #fff;">
+</div>
+
 <p>I spend most of my time researching machine-learning techniques for particle physics analyses.
 After my undergraduate degree in applied math & theoretical physics at QUB in Belfast, I started a PhD in theoretical particle physics at the University of Sussex in Brighton.
 My thesis topic focused on the physics of extra dimensions (Randall-Sundrum models) and composite Higgs models.
