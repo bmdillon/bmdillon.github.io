@@ -4,4 +4,4 @@ title: Research
 ---
 
 ## Research
-...
+Theoretical physics and machine-learning.
