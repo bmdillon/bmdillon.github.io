@@ -3,7 +3,6 @@ layout: default
 title: Papers
 ---
 
-## Papers
 <html>
 <body>
 The full list can also be found <a href="https://inspirehep.net/authors/1515597" target="_blank" rel="noopener noreferrer">here</a>.
