@@ -19,8 +19,8 @@ I wrote a short zine on important mathematicians and physicists from Ireland:<br
 
 
 ## NIMathsFest 2026 - Jan 22nd 2026
-Only the second year running for the NIMathsFest, but a massive participation with approx 500 primary and secondary school students on each day of the festival.
-Myself and James from UU were showing how to encode messages with cipher wheels, a very early precursor to modern cryptography.
+Only the second year running for the <a href="https://nimathsfest.co.uk/" target="_blank" rel="noopener">NIMathsFest</a>, but a massive participation with approx 500 primary and secondary school students on each day of the festival.
+Myself and James from UU were showing how to encode messages with <a href="https://www.sciencemuseumgroup.org.uk/learning/resources/cipher-wheel/" target="_blank" rel="noopener">cipher wheels</a>, a very early precursor to modern cryptography.
 <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
   <img src="{{ '/assets/outreach/nimathsfest2026/nimathsfest-2.jpeg' | relative_url }}"
        alt="Image 1"
