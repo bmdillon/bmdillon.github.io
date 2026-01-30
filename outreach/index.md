@@ -14,6 +14,7 @@ I wrote a short zine that covers important mathematicians and physicists from Ir
     style="max-width: 420px; width: 100%; height: auto;"
   >
 </div>
+<hr style="border: 0; border-top: 1px solid #ddd; margin: 24px 0;">
 
 
 ## NIMathsFest 2026 - Jan 22nd 2026
