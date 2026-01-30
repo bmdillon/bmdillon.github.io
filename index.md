@@ -2,6 +2,7 @@
 layout: default
 title: About
 ---
+<hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 
 <p>I research in the area of theoretical particle physics and machine-learning techniques for particle physics.
 After my undergraduate degree in applied math & theoretical physics at QUB in Belfast, I started a PhD in theoretical particle physics at the University of Sussex in Brighton.
