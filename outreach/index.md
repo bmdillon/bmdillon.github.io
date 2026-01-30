@@ -17,6 +17,11 @@ I wrote a short zine on important mathematicians and physicists from Ireland:<br
 </div>
 <hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 
+## Upcoming
+
+...
+
+<hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 
 ## NIMathsFest 2026 - Jan 22nd 2026
 Only the second year running for the <a href="https://nimathsfest.co.uk/" target="_blank" rel="noopener">NIMathsFest</a>, but a massive participation with approx 500 primary and secondary school students on each day of the festival.
@@ -31,5 +36,17 @@ Myself and <a href="https://www.jajm.uk/" target="_blank" rel="noopener">James</
        style="width: min(320px, 100%); height:auto; flex: 1 1 320px;">
 </div>
 
+<hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
+
+## Widening Access and Participation - Jan 20th 2026
 
 <hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
+
+## Widening Access and Participation - Oct 23rd 2025
+
+<hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
+
+## NIMathsFest 2025 - Feb 6th and 7th 2025
+
+<hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
+
