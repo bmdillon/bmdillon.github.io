@@ -67,6 +67,6 @@ We were very happy to be involved in the very first <a href="https://nimathsfest
 <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap; max-width:220px; margin:0 auto;">
   <img src="{{ 'assets/outreach/nimathsfest2025/NI-Maths-Fest-2026-Logo.jpg' | relative_url }}"
        alt="NI Maths Fest logo"
-       style="width:30%; height:auto;">
+       style="width:200%; height:auto;">
 </div>
 

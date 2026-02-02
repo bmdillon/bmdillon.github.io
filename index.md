@@ -6,6 +6,89 @@ title: About
 
 <p>I research in the area of theoretical particle physics and machine-learning techniques for particle physics.</p>
 
+
+<style>
+  .cv-grid {
+    display: grid;
+    grid-template-columns: 9.5rem 1fr; /* years | content */
+    column-gap: 1rem;
+    row-gap: 0.9rem;
+    margin: 1rem 0;
+    align-items: start;
+  }
+  .cv-grid .years {
+    white-space: nowrap;
+    font-weight: 600;
+    opacity: 0.9;
+  }
+  .cv-grid .place {
+    font-weight: 600;
+  }
+  .cv-grid .desc {
+    margin-top: 0.15rem;
+  }
+  /* Responsive: stack on narrow screens */
+  @media (max-width: 600px) {
+    .cv-grid {
+      grid-template-columns: 1fr;
+    }
+    .cv-grid .years {
+      margin-bottom: -0.5rem;
+    }
+  }
+</style>
+
+<div class="cv-grid">
+  <div class="years">2007–2011</div>
+  <div>
+    <div class="place">Undergraduate, Applied Math &amp; Theoretical Physics — QUB (Belfast)</div>
+    <div class="desc">Integrated masters</div>
+  </div>
+
+  <div class="years">2012–2016</div>
+  <div>
+    <div class="place">PhD, Theoretical Particle Physics — University of Sussex (Brighton)</div>
+    <div class="desc">Thesis: Electroweak precision and intermediate scales in warped extra dimensions / composite Higgs models.</div>
+  </div>
+
+  <div class="years">2017–2018</div>
+  <div>
+    <div class="place">Postdoc — University of Plymouth</div>
+    <div class="desc">New light particles in high-intensity laser–electron interactions.</div>
+  </div>
+
+  <div class="years">2018–2020</div>
+  <div>
+    <div class="place">Postdoc — Jožef Stefan Institute (Ljubljana)</div>
+    <div class="desc">ML for particle physics; anomaly detection at the LHC.</div>
+  </div>
+
+  <div class="years">2020–2023</div>
+  <div>
+    <div class="place">Postdoc — Univeresity of Heidelberg (Germany)</div>
+    <div class="desc">Particle physics &amp; machine-learning research.</div>
+  </div>
+
+  <div class="years">2023–2024</div>
+  <div>
+    <div class="place">Machine-Learning Engineer — Private sector (Ireland)</div>
+    <div class="desc">Mostly developing LLM applications.</div>
+  </div>
+
+  <div class="years">2024–present</div>
+  <div>
+    <div class="place">Lecturer in Mathematics — Ulster University (Magee, Derry)</div>
+    <div class="desc">
+      Research in ML and physics; developing an undergraduate course on
+      <a href="https://www.ulster.ac.uk/courses/202526/computing-with-applied-mathematics-42302" target="_blank" rel="noopener noreferrer">
+        computing with applied mathematics
+      </a>.
+    </div>
+  </div>
+</div>
+
+
+<!--
 <p>
 After my undergraduate degree in applied math & theoretical physics at QUB in Belfast, I started a PhD in theoretical particle physics at the University of Sussex in Brighton.
 My thesis topic focused on the physics of extra dimensions (Randall-Sundrum models) and composite Higgs models.
@@ -23,6 +106,7 @@ Having spent enough time moving around I decided to move back to Ireland, taking
 One year later I started my current job as a lecturer in mathematics on the Magee (Derry) campus at the University of Ulster.
 As well as continuing my research in machine-learning and physics, we're developing a new undergraduate course on <a href="https://www.ulster.ac.uk/courses/202526/computing-with-applied-mathematics-42302" target="_blank" rel="noopener noreferrer">computing with applied mathematics</a>.
 </p>
+-->
 <br>
 ## Contact
 Email me, [b.dillon@ulster.ac.uk](mailto:b.dillon@ulster.ac.uk).
