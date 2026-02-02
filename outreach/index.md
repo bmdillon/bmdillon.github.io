@@ -5,10 +5,10 @@ title: Outreach
 
 ## Upcoming
 
+<hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
+
 July 2026 - Belfast UU campus<br>
 3-day outreach event on Quantum Computing & Artificial Intelligence.
-
-<hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 
 <hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 ## Zine - Maths & Physics from Ireland
@@ -67,6 +67,6 @@ We were very happy to be involved in the very first <a href="https://nimathsfest
 <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
   <img src="{{ 'assets/outreach/nimathsfest2025/NI-Maths-Fest-2026-Logo.jpg' | relative_url }}"
        alt="Image 1"
-       style="width: min(100px, 100%); height:auto; flex: 1 1 320px;">
+       style="width: min(100px, 30%); height:auto; flex: 1 1 320px;">
 </div>
 
