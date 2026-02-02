@@ -4,7 +4,9 @@ title: About
 ---
 <hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 
-<p>I research in the area of theoretical particle physics and machine-learning techniques for particle physics.
+<p>I research in the area of theoretical particle physics and machine-learning techniques for particle physics.</p>
+
+<p>
 After my undergraduate degree in applied math & theoretical physics at QUB in Belfast, I started a PhD in theoretical particle physics at the University of Sussex in Brighton.
 My thesis topic focused on the physics of extra dimensions (Randall-Sundrum models) and composite Higgs models.
 </p>

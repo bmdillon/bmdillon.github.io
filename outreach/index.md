@@ -3,9 +3,9 @@ layout: default
 title: Outreach
 ---
 
-## Upcoming
-
 <hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
+
+## Upcoming
 
 July 2026 - Belfast UU campus<br>
 3-day outreach event on Quantum Computing & Artificial Intelligence.
@@ -64,9 +64,9 @@ The <a href="https://www.ulster.ac.uk/flexible-education/widening-access-and-par
 ## NIMathsFest 2025 - Feb 6th and 7th 2025
 
 We were very happy to be involved in the very first <a href="https://nimathsfest.co.uk/" target="_blank" rel="noopener">NIMathsFest</a> hosted at the Guildhall in Derry.  The event was a massive success, being together students from all over NI for two days maths talks and activities.
-<div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+<div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap; max-width:220px; margin:0 auto;">
   <img src="{{ 'assets/outreach/nimathsfest2025/NI-Maths-Fest-2026-Logo.jpg' | relative_url }}"
-       alt="Image 1"
-       style="width: min(100px, 30%); height:auto; flex: 1 1 320px;">
+       alt="NI Maths Fest logo"
+       style="width:30%; height:auto;">
 </div>
 
