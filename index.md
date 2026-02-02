@@ -81,7 +81,7 @@ title: About
     <div class="title">Postdoc</div>
   </div>
   <div>
-    <div class="place">University of Plymouth</div>
+    <div class="place">University of Plymouth (UK)</div>
     <div class="desc">New light particles in high-intensity laser–electron interactions.</div>
   </div>
 
@@ -90,7 +90,7 @@ title: About
     <div class="title">Postdoc</div>
   </div>
   <div>
-    <div class="place">Jožef Stefan Institute (Ljubljana)</div>
+    <div class="place">Jožef Stefan Institute (Ljubljana, Slovenia)</div>
     <div class="desc">ML for particle physics; anomaly detection at the LHC.</div>
   </div>
 
