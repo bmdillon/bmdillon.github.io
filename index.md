@@ -9,63 +9,65 @@ title: About
 <style>
   .cv-grid {
     display: grid;
-    grid-template-columns: 9.5rem 12rem 1fr; /* years | title | place+desc */
+    grid-template-columns: 9.5rem 1fr; /* left meta | right content */
     column-gap: 1rem;
-    row-gap: 0.9rem;
+    row-gap: 1rem;
     margin: 1rem 0;
     align-items: start;
   }
 
-  .cv-grid .years {
+  .cv-grid .meta .years {
     white-space: nowrap;
-    font-weight: 600;
-    opacity: 0.9;
-  }
-
-  /* This column can wrap (e.g. Machine-Learning Engineer) */
-  .cv-grid .title {
-    font-weight: 600;
-    white-space: normal;
+    font-weight: 700;
+    opacity: 0.95;
     line-height: 1.2;
   }
 
-  .cv-grid .place {
+  .cv-grid .meta .title {
+    margin-top: 0.15rem;
     font-weight: 600;
+    white-space: normal; /* allow wrapping */
+    line-height: 1.2;
+    opacity: 0.9;
+  }
+
+  .cv-grid .place {
+    font-weight: 700;
+    line-height: 1.2;
   }
 
   .cv-grid .desc {
-    margin-top: 0.15rem;
+    margin-top: 0.2rem;
   }
 
-  /* Responsive: stack on narrow screens */
   @media (max-width: 700px) {
     .cv-grid {
       grid-template-columns: 1fr;
-      row-gap: 0.5rem;
+      row-gap: 0.6rem;
     }
-    .cv-grid .years {
+    .cv-grid .meta {
       margin-top: 0.4rem;
-      opacity: 1;
-    }
-    .cv-grid .title {
-      margin-top: -0.25rem;
     }
     .cv-grid .desc {
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.8rem;
     }
   }
 </style>
 
 <div class="cv-grid">
-  <div class="years">2007–2011</div>
-  <div class="title">Undergraduate</div>
+  <div class="meta">
+    <div class="years">2007–2011</div>
+    <div class="title">Undergraduate</div>
+  </div>
   <div>
     <div class="place">QUB (Belfast) — Applied Math &amp; Theoretical Physics</div>
     <div class="desc">Integrated masters</div>
   </div>
 
-  <div class="years">2012–2016</div>
-  <div class="title">PhD</div>
+  <div class="meta">
+    <div class="years">2012–2016</div>
+    <div class="title">PhD</div>
+  </div>
   <div>
     <div class="place">University of Sussex (Brighton) — Theoretical Particle Physics</div>
     <div class="desc">
@@ -73,36 +75,46 @@ title: About
     </div>
   </div>
 
-  <div class="years">2017–2018</div>
-  <div class="title">Postdoc</div>
+  <div class="meta">
+    <div class="years">2017–2018</div>
+    <div class="title">Postdoc</div>
+  </div>
   <div>
     <div class="place">University of Plymouth</div>
     <div class="desc">New light particles in high-intensity laser–electron interactions.</div>
   </div>
 
-  <div class="years">2018–2020</div>
-  <div class="title">Postdoc</div>
+  <div class="meta">
+    <div class="years">2018–2020</div>
+    <div class="title">Postdoc</div>
+  </div>
   <div>
     <div class="place">Jožef Stefan Institute (Ljubljana)</div>
     <div class="desc">ML for particle physics; anomaly detection at the LHC.</div>
   </div>
 
-  <div class="years">2020–2023</div>
-  <div class="title">Postdoc</div>
+  <div class="meta">
+    <div class="years">2020–2023</div>
+    <div class="title">Postdoc</div>
+  </div>
   <div>
     <div class="place">University of Heidelberg (Germany)</div>
     <div class="desc">Particle physics &amp; machine-learning research.</div>
   </div>
 
-  <div class="years">2023–2024</div>
-  <div class="title">Machine-Learning Engineer</div>
+  <div class="meta">
+    <div class="years">2023–2024</div>
+    <div class="title">Machine-Learning Engineer</div>
+  </div>
   <div>
     <div class="place">Private sector (Ireland)</div>
     <div class="desc">Mostly developing LLM applications.</div>
   </div>
 
-  <div class="years">2024–present</div>
-  <div class="title">Lecturer in Mathematics</div>
+  <div class="meta">
+    <div class="years">2024–present</div>
+    <div class="title">Lecturer in Mathematics</div>
+  </div>
   <div>
     <div class="place">Ulster University (Magee, Derry)</div>
     <div class="desc">
@@ -113,7 +125,6 @@ title: About
     </div>
   </div>
 </div>
-
 
 <!--
 <p>

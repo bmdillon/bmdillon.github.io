@@ -64,9 +64,10 @@ The <a href="https://www.ulster.ac.uk/flexible-education/widening-access-and-par
 ## NIMathsFest 2025 - Feb 6th and 7th 2025
 
 We were very happy to be involved in the very first <a href="https://nimathsfest.co.uk/" target="_blank" rel="noopener">NIMathsFest</a> hosted at the Guildhall in Derry.  The event was a massive success, being together students from all over NI for two days maths talks and activities.
-<div style="display:flex; gap:16px; justify-content:left; flex-wrap:wrap; max-width:220px; margin:0 auto;">
+<div style="display:flex; gap:16px; justify-content:flex-start; flex-wrap:wrap; max-width:220px; margin:0;">
   <img src="{{ 'assets/outreach/nimathsfest2025/NI-Maths-Fest-2026-Logo.jpg' | relative_url }}"
        alt="NI Maths Fest logo"
-       style="width:300%; height:auto;">
+       style="width:100%; height:auto;">
 </div>
+
 
