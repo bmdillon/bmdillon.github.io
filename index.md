@@ -27,6 +27,7 @@ title: About
     margin-top: 0.15rem;
     font-weight: 600;
     white-space: normal; /* allow wrapping */
+    text-align: left; 
     line-height: 1.2;
     opacity: 0.9;
   }
