@@ -49,7 +49,6 @@ Another great event hosted by <a href="https://www.ulster.ac.uk/flexible-educati
 
 The <a href="https://www.ulster.ac.uk/flexible-education/widening-access-and-participation" target="_blank" rel="noopener">Widening Access and Participation</a> team at Ulster University organised a great event with over 50 school students from around Derry coming together for a tour of our campus, our computing and engineering facilities, and to hear about the benefits of studying STEM subjects at A-level and at university-level.
 
-<hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
   <img src="{{ '/assets/outreach/wap25/wap25-1.JPG' | relative_url }}"
        alt="Image 1"
