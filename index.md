@@ -126,5 +126,12 @@ title: About
   </div>
 </div>
 <br>
+
+- **INSPIRE-HEP:** https://inspirehep.net/authors/1515597
+- **Google Scholar:** https://scholar.google.com/citations?user=HeQ0Xs0AAAAJ&hl=en&oi=ao
+- **LinkedIn:** https://www.linkedin.com/in/barry-dillon-26770b296/
+- **Code:** https://github.com/bmdillon
+
+<br>
 ## Contact
 Email me, [b.dillon@ulster.ac.uk](mailto:b.dillon@ulster.ac.uk).
