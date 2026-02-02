@@ -60,9 +60,9 @@ The <a href="https://www.ulster.ac.uk/flexible-education/widening-access-and-par
        style="width: min(320px, 100%); height:auto; flex: 1 1 320px;">
 </div>
 
-## NIMathsFest 2025 - Feb 6th and 7th 2025
-
 <hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
+
+## NIMathsFest 2025 - Feb 6th and 7th 2025
 
 We were very happy to be involved in the very first <a href="https://nimathsfest.co.uk/" target="_blank" rel="noopener">NIMathsFest</a> hosted at the Guildhall in Derry.  The event was a massive success, being together students from all over NI for two days maths talks and activities.
 <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
