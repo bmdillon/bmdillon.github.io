@@ -10,7 +10,7 @@ A central theme is developing data-driven and interpretable ML methods that can 
 
 Alongside ML-for-HEP, I have worked on a range of topics in theoretical physics, including beyond-the-Standard-Model phenomenology with warped extra dimensions and composite Higgs models, and strong-field QED.
 
----
+<br>
 
 - **Theory-informed neural networks**
   - using theoretical knowledge of physics models to optimise neural networks
