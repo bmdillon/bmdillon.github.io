@@ -57,12 +57,52 @@ title: About
 
 <div class="cv-grid">
   <div class="meta">
-    <div class="years">2007–2011</div>
-    <div class="title">Undergraduate</div>
+    <div class="years">2024–present</div>
+    <div class="title">Lecturer in Mathematics</div>
   </div>
   <div>
-    <div class="place">QUB (Belfast) — Applied Math &amp; Theoretical Physics</div>
-    <div class="desc">Integrated masters</div>
+    <div class="place">Ulster University (Magee, Derry)</div>
+    <div class="desc">
+      Research in ML and physics; developing an undergraduate course on
+      <a href="https://www.ulster.ac.uk/courses/202526/computing-with-applied-mathematics-42302" target="_blank" rel="noopener noreferrer">
+        computing with applied mathematics</a>.
+    </div>
+  </div>
+
+  <div class="meta">
+    <div class="years">2023–2024</div>
+    <div class="title">Machine-Learning Engineer</div>
+  </div>
+  <div>
+    <div class="place">Private sector (Ireland)</div>
+    <div class="desc">Mostly developing LLM applications.</div>
+  </div>
+
+  <div class="meta">
+    <div class="years">2020–2023</div>
+    <div class="title">Postdoc</div>
+  </div>
+  <div>
+    <div class="place">University of Heidelberg (Germany)</div>
+    <div class="desc">Particle physics &amp; machine-learning research.</div>
+  </div>
+
+  <div class="meta">
+    <div class="years">2018–2020</div>
+    <div class="title">Postdoc</div>
+  </div>
+  <div>
+    <div class="place">Jožef Stefan Institute (Ljubljana, Slovenia)</div>
+    <div class="desc">ML for particle physics; anomaly detection at the LHC.</div>
+  </div>
+
+  <div class="meta">
+    <div class="years">2017–2018</div>
+    <div class="title">Postdoc</div>
+  </div>
+  <div>
+    <div class="place">University of Plymouth (UK)</div>
+    <div class="desc">New light particles in high-intensity laser–electron interactions.</div>
   </div>
 
   <div class="meta">
@@ -77,52 +117,12 @@ title: About
   </div>
 
   <div class="meta">
-    <div class="years">2017–2018</div>
-    <div class="title">Postdoc</div>
+    <div class="years">2007–2011</div>
+    <div class="title">Undergraduate</div>
   </div>
   <div>
-    <div class="place">University of Plymouth (UK)</div>
-    <div class="desc">New light particles in high-intensity laser–electron interactions.</div>
-  </div>
-
-  <div class="meta">
-    <div class="years">2018–2020</div>
-    <div class="title">Postdoc</div>
-  </div>
-  <div>
-    <div class="place">Jožef Stefan Institute (Ljubljana, Slovenia)</div>
-    <div class="desc">ML for particle physics; anomaly detection at the LHC.</div>
-  </div>
-
-  <div class="meta">
-    <div class="years">2020–2023</div>
-    <div class="title">Postdoc</div>
-  </div>
-  <div>
-    <div class="place">University of Heidelberg (Germany)</div>
-    <div class="desc">Particle physics &amp; machine-learning research.</div>
-  </div>
-
-  <div class="meta">
-    <div class="years">2023–2024</div>
-    <div class="title">Machine-Learning Engineer</div>
-  </div>
-  <div>
-    <div class="place">Private sector (Ireland)</div>
-    <div class="desc">Mostly developing LLM applications.</div>
-  </div>
-
-  <div class="meta">
-    <div class="years">2024–present</div>
-    <div class="title">Lecturer in Mathematics</div>
-  </div>
-  <div>
-    <div class="place">Ulster University (Magee, Derry)</div>
-    <div class="desc">
-      Research in ML and physics; developing an undergraduate course on
-      <a href="https://www.ulster.ac.uk/courses/202526/computing-with-applied-mathematics-42302" target="_blank" rel="noopener noreferrer">
-        computing with applied mathematics</a>.
-    </div>
+    <div class="place">QUB (Belfast) — Applied Math &amp; Theoretical Physics</div>
+    <div class="desc">Integrated masters</div>
   </div>
 </div>
 <br>
