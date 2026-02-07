@@ -7,60 +7,60 @@
     <h5><i id="title-rotator" data-title-en="Lecturer in Mathematics at Ulster University Derry" data-title-ga="Léachtóir matamaitice in Ollscoil Uladh, Doire">Lecturer in Mathematics at Ulster University Derry</i></h5>
     <script>
         (function () {
-            var el = document.getElementById("role-rotator");
-            if (!el) return;
-            var textEn = el.getAttribute("data-role-en");
-            var textGa = el.getAttribute("data-role-ga");
-            var showEn = false;
-            function flickerToIrish() {
+            var roleEl = document.getElementById("role-rotator");
+            var titleEl = document.getElementById("title-rotator");
+            if (!roleEl || !titleEl) return;
+
+            var roleEn = roleEl.getAttribute("data-role-en");
+            var roleGa = roleEl.getAttribute("data-role-ga");
+            var titleEn = titleEl.getAttribute("data-title-en");
+            var titleGa = titleEl.getAttribute("data-title-ga");
+
+            var EN_DURATION = 2300;
+            var FLICKER_DURATION = 700;
+            var IRISH_DURATION = 3000;
+            var FLICKER_INTERVAL = 70;
+
+            function setEnglish() {
+                roleEl.textContent = roleEn;
+                titleEl.textContent = titleEn;
+            }
+
+            function setIrish() {
+                roleEl.textContent = roleGa;
+                titleEl.textContent = titleGa;
+            }
+
+            function flickerToIrish(next) {
                 var start = Date.now();
-                var flickerInterval = setInterval(function () {
+                var flickerTimer = setInterval(function () {
                     var elapsed = Date.now() - start;
-                    if (elapsed >= 1000) {
-                        clearInterval(flickerInterval);
-                        el.textContent = textGa;
+                    if (elapsed >= FLICKER_DURATION) {
+                        clearInterval(flickerTimer);
+                        setIrish();
+                        next();
                         return;
                     }
-                    el.textContent = Math.random() > 0.5 ? textGa : textEn;
-                }, 80);
-            }
-            setInterval(function () {
-                showEn = !showEn;
-                if (showEn) {
-                    el.textContent = textEn;
-                } else {
-                    flickerToIrish();
-                }
-            }, 3000);
-        })();
-    </script>
-    <script>
-        (function () {
-            var el = document.getElementById("title-rotator");
-            if (!el) return;
-            var textEn = el.getAttribute("data-title-en");
-            var textGa = el.getAttribute("data-title-ga");
-            var showEn = false;
-            function flickerToIrish() {
-                var start = Date.now();
-                var flickerInterval = setInterval(function () {
-                    var elapsed = Date.now() - start;
-                    if (elapsed >= 1000) {
-                        clearInterval(flickerInterval);
-                        el.textContent = textGa;
-                        return;
+                    if (Math.random() > 0.5) {
+                        setIrish();
+                    } else {
+                        setEnglish();
                     }
-                    el.textContent = Math.random() > 0.5 ? textGa : textEn;
-                }, 80);
+                }, FLICKER_INTERVAL);
             }
-            setInterval(function () {
-                showEn = !showEn;
-                if (showEn) {
-                    el.textContent = textEn;
-                } else {
-                    flickerToIrish();
-                }
-            }, 3000);
+
+            function cycle() {
+                setEnglish();
+                setTimeout(function () {
+                    flickerToIrish(function () {
+                        setTimeout(cycle, IRISH_DURATION);
+                    });
+                }, EN_DURATION);
+            }
+
+            // Start in Irish on page load.
+            setIrish();
+            setTimeout(cycle, IRISH_DURATION);
         })();
     </script>
     {% include nav.html %}
