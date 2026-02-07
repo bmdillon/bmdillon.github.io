@@ -11,7 +11,7 @@
             if (!el) return;
             var textEn = el.getAttribute("data-role-en");
             var textGa = el.getAttribute("data-role-ga");
-            var showEn = true;
+            var showEn = false;
             setInterval(function () {
                 showEn = !showEn;
                 el.textContent = showEn ? textEn : textGa;
@@ -24,7 +24,7 @@
             if (!el) return;
             var textEn = el.getAttribute("data-title-en");
             var textGa = el.getAttribute("data-title-ga");
-            var showEn = true;
+            var showEn = false;
             setInterval(function () {
                 showEn = !showEn;
                 el.textContent = showEn ? textEn : textGa;
