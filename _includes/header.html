@@ -31,6 +31,17 @@
                 titleEl.textContent = titleGa;
             }
 
+            function randomBlend(en, ga) {
+                var maxLen = Math.max(en.length, ga.length);
+                var out = "";
+                for (var i = 0; i < maxLen; i++) {
+                    var fromEn = Math.random() > 0.5;
+                    var ch = fromEn ? en.charAt(i) : ga.charAt(i);
+                    out += ch ? ch : " ";
+                }
+                return out;
+            }
+
             function flickerToIrish(next) {
                 var start = Date.now();
                 var flickerTimer = setInterval(function () {
@@ -41,11 +52,8 @@
                         next();
                         return;
                     }
-                    if (Math.random() > 0.5) {
-                        setIrish();
-                    } else {
-                        setEnglish();
-                    }
+                    roleEl.textContent = randomBlend(roleEn, roleGa);
+                    titleEl.textContent = randomBlend(titleEn, titleGa);
                 }, FLICKER_INTERVAL);
             }
 
