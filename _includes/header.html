@@ -2,9 +2,35 @@
     <h1>Barry Dillon</h1>
     <br>
     <img src="/assets/profile-picture.jpg" alt="Photo of Barry" class="header-photo">
-    <h5><i>Theoretical Physicist</i></h5>
+    <h5><i id="role-rotator" data-role-en="Theoretical Physicist" data-role-ga="Fisiceoir teoiriciúil">Theoretical Physicist</i></h5>
     <br>
-    <h5><i>Lecturer in Mathematics at Ulster University Derry</i></h5>
+    <h5><i id="title-rotator" data-title-en="Lecturer in Mathematics at Ulster University Derry" data-title-ga="Léachtóir matamaitice in Ollscoil Uladh, Doire">Lecturer in Mathematics at Ulster University Derry</i></h5>
+    <script>
+        (function () {
+            var el = document.getElementById("role-rotator");
+            if (!el) return;
+            var textEn = el.getAttribute("data-role-en");
+            var textGa = el.getAttribute("data-role-ga");
+            var showEn = true;
+            setInterval(function () {
+                showEn = !showEn;
+                el.textContent = showEn ? textEn : textGa;
+            }, 3000);
+        })();
+    </script>
+    <script>
+        (function () {
+            var el = document.getElementById("title-rotator");
+            if (!el) return;
+            var textEn = el.getAttribute("data-title-en");
+            var textGa = el.getAttribute("data-title-ga");
+            var showEn = true;
+            setInterval(function () {
+                showEn = !showEn;
+                el.textContent = showEn ? textEn : textGa;
+            }, 3000);
+        })();
+    </script>
     {% include nav.html %}
     <hr>
 </div>
