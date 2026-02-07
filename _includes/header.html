@@ -12,9 +12,25 @@
             var textEn = el.getAttribute("data-role-en");
             var textGa = el.getAttribute("data-role-ga");
             var showEn = false;
+            function flickerToIrish() {
+                var start = Date.now();
+                var flickerInterval = setInterval(function () {
+                    var elapsed = Date.now() - start;
+                    if (elapsed >= 1000) {
+                        clearInterval(flickerInterval);
+                        el.textContent = textGa;
+                        return;
+                    }
+                    el.textContent = Math.random() > 0.5 ? textGa : textEn;
+                }, 80);
+            }
             setInterval(function () {
                 showEn = !showEn;
-                el.textContent = showEn ? textEn : textGa;
+                if (showEn) {
+                    el.textContent = textEn;
+                } else {
+                    flickerToIrish();
+                }
             }, 3000);
         })();
     </script>
@@ -25,9 +41,25 @@
             var textEn = el.getAttribute("data-title-en");
             var textGa = el.getAttribute("data-title-ga");
             var showEn = false;
+            function flickerToIrish() {
+                var start = Date.now();
+                var flickerInterval = setInterval(function () {
+                    var elapsed = Date.now() - start;
+                    if (elapsed >= 1000) {
+                        clearInterval(flickerInterval);
+                        el.textContent = textGa;
+                        return;
+                    }
+                    el.textContent = Math.random() > 0.5 ? textGa : textEn;
+                }, 80);
+            }
             setInterval(function () {
                 showEn = !showEn;
-                el.textContent = showEn ? textEn : textGa;
+                if (showEn) {
+                    el.textContent = textEn;
+                } else {
+                    flickerToIrish();
+                }
             }, 3000);
         })();
     </script>
