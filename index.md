@@ -4,7 +4,7 @@ title: About
 ---
 <hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 
-<p>I research in the area of theoretical particle physics and machine-learning techniques for particle physics.</p>
+<p>I research in the areas of theoretical particle physics and machine-learning techniques for particle physics.</p>
 
 <style>
   .cv-grid {
