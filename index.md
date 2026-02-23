@@ -4,7 +4,7 @@ title: About
 ---
 <hr style="border: 0; border-top: 0.5px dashed #ddd; margin: 24px 0;">
 
-<p>I do research in the areas of theoretical particle physics and machine-learning techniques for particle physics.</p>
+<p>I do research in the areas of theoretical particle physics and machine-learning techniques for particle physics, and teach applied mathematics and machine-learning at Ulster University.</p>
 
 <style>
   .cv-grid {
